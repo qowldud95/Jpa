@@ -17,7 +17,8 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>1.4.199</version>
+            <version>1.4.200</version>
+            <scope>runtime</scope>
         </dependency>
         <!-- 자바 11 오류개선.. 추가 -->
         <dependency>
@@ -25,5 +26,6 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.3.0</version>
         </dependency>
+
     </dependencies>
 </project>
